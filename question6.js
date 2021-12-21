@@ -6,7 +6,7 @@ const unique = function (arr) {
   for (const val of arr) {
     obj[val] = (obj[val] || 0) + 1;
   }
-  //   console.log(obj);
+  console.log(obj);
 
   const unique = [];
 
