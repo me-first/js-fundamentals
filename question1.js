@@ -1,4 +1,3 @@
-"use strict";
 // Question 1
 const obj1 = { hair: "long", beard: true };
 const obj2 = { hair: "long", beard: false };
