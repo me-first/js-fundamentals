@@ -15,7 +15,7 @@ const arrOfkeys1Unique = [...new Set(...arrOfkeys1)]; // ['col1','col2']
 console.log(arrOfkeys1Unique, arrOfValues1);
 
 let str = arrOfkeys1Unique.join(",");
-arrOfValues1.forEach((val, i, arr) => {
-  str = str + arr.join("/n");
+arrOfValues1.forEach(([val1, val2], i, arr) => {
+  str = str + "\\n" + `${val1},${val2}`;
 });
 console.log(str);
